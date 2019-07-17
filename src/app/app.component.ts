@@ -9,6 +9,6 @@ import {Observable} from 'rxjs';
 export class AppComponent {
   title = 'angular-issue31512-repro';
   changingText = new Observable<string>((it) => {
-    it.next('Test');
+    it.next('I SHOULD BE VISIBLE!');
   });
 }

@@ -1,3 +1,10 @@
+To reproduce [angular/angular#31512](https://github.com/angular/angular/issues/31512), follow these steps:
+
+1. Start the CLI Server
+2. View the page and observe it renders correctly (includes the extra bottom text)
+3. Modify `app.component.html` in some trivial way so that it is recompiled
+4. View the page and observe it now does not render correctly (and errors are printed to the console)
+
 # AngularIssue31512Repro
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0-next.0.
