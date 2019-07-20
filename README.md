@@ -7,6 +7,8 @@ To reproduce [angular/angular#31512](https://github.com/angular/angular/issues/3
 
 # AngularIssue31512Repro
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/magneticflux-/angular-issue31512-repro.svg)](https://greenkeeper.io/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0-next.0.
 
 ## Development server
